@@ -1,0 +1,76 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FiaIOS
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import CryptoKit
+import DeveloperToolsSupport
+import DeviceIntelligenceIOS
+import Foundation
+import Network
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+
+public enum OtpAuthType {
+  case HE
+  case Miscall
+  case Message
+  case FIA
+  public static func == (a: FiaIOS.OtpAuthType, b: FiaIOS.OtpAuthType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+
+@_hasMissingDesignatedInitializers public class OtpSettings {
+  public func login(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
+  public func register(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
+  public func transaction(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
+  public func forgetPassword(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
+  @objc deinit
+}
+
+@_hasMissingDesignatedInitializers public class OtpPromise {
+  public var hasError: Swift.Bool {
+    get
+  }
+  public var error: any Swift.Error {
+    get
+  }
+  public var transactionId: Swift.String {
+    get
+  }
+  public var authType: FiaIOS.OtpAuthType {
+    get
+  }
+  public var digitCount: Swift.Int {
+    get
+  }
+  public func validate(_ otp: Swift.String, _ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
+  public func validateHE(_ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
+  @objc deinit
+}
+
+public protocol FIA {
+  func initialize(_ merchantKey: Swift.String, _ merchantAppId: Swift.String)
+  func otp() -> FiaIOS.OtpSettings
+  func otpView() -> FiaIOS.OtpViewSettings
+}
+
+@_hasMissingDesignatedInitializers public class OtpViewSettings {
+  public func login(_ phone: Swift.String, _ callback: @escaping (Swift.String?) -> Swift.Void)
+  public func register(_ phone: Swift.String, _ callback: @escaping (Swift.String?) -> Swift.Void)
+  public func transaction(_ phone: Swift.String, _ callback: @escaping (Swift.String?) -> Swift.Void)
+  public func forgetPassword(_ phone: Swift.String, _ callback: @escaping (Swift.String?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FIAFactory {
+  public static func getInstance() -> any FiaIOS.FIA
+  @objc deinit
+}
+extension FiaIOS.OtpAuthType : Swift.Equatable {}
+extension FiaIOS.OtpAuthType : Swift.Hashable {}

@@ -1,0 +1,2017 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FiaIOS",
+    "printedName": "FiaIOS",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OtpAuthType",
+        "printedName": "OtpAuthType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HE",
+            "printedName": "HE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO2HEyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO2HEyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Miscall",
+            "printedName": "Miscall",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO7MiscallyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO7MiscallyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Message",
+            "printedName": "Message",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO7MessageyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO7MessageyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "FIA",
+            "printedName": "FIA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OtpAuthType",
+                "printedName": "FiaIOS.OtpAuthType",
+                "usr": "s:6FiaIOS11OtpAuthTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OtpAuthType",
+                "printedName": "FiaIOS.OtpAuthType",
+                "usr": "s:6FiaIOS11OtpAuthTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpAuthTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "FiaIOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS11OtpAuthTypeO9hashValueSivp",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO9hashValueSivp",
+            "moduleName": "FiaIOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS11OtpAuthTypeO9hashValueSivg",
+                "mangledName": "$s6FiaIOS11OtpAuthTypeO9hashValueSivg",
+                "moduleName": "FiaIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpAuthTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "FiaIOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FiaIOS11OtpAuthTypeO",
+        "mangledName": "$s6FiaIOS11OtpAuthTypeO",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OtpSettings",
+        "printedName": "OtpSettings",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC5loginyySS_yAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC5loginyySS_yAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC8registeryySS_yAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC8registeryySS_yAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transaction",
+            "printedName": "transaction(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC11transactionyySS_yAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC11transactionyySS_yAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgetPassword",
+            "printedName": "forgetPassword(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC14forgetPasswordyySS_yAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC14forgetPasswordyySS_yAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FiaIOS11OtpSettingsC",
+        "mangledName": "$s6FiaIOS11OtpSettingsC",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OtpPromise",
+        "printedName": "OtpPromise",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hasError",
+            "printedName": "hasError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC8hasErrorSbvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC8hasErrorSbvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC8hasErrorSbvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC8hasErrorSbvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC5errors5Error_pvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC5errors5Error_pvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC5errors5Error_pvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC5errors5Error_pvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionId",
+            "printedName": "transactionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC13transactionIdSSvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC13transactionIdSSvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC13transactionIdSSvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC13transactionIdSSvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authType",
+            "printedName": "authType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OtpAuthType",
+                "printedName": "FiaIOS.OtpAuthType",
+                "usr": "s:6FiaIOS11OtpAuthTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC8authTypeAA0c4AuthF0Ovp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC8authTypeAA0c4AuthF0Ovp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC8authTypeAA0c4AuthF0Ovg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC8authTypeAA0c4AuthF0Ovg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "digitCount",
+            "printedName": "digitCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC10digitCountSivp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC10digitCountSivp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC10digitCountSivg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC10digitCountSivg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS10OtpPromiseC8validateyySS_ys5Error_pcSgyyctF",
+            "mangledName": "$s6FiaIOS10OtpPromiseC8validateyySS_ys5Error_pcSgyyctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateHE",
+            "printedName": "validateHE(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS10OtpPromiseC10validateHEyyys5Error_pcSg_yyctF",
+            "mangledName": "$s6FiaIOS10OtpPromiseC10validateHEyyys5Error_pcSg_yyctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FiaIOS10OtpPromiseC",
+        "mangledName": "$s6FiaIOS10OtpPromiseC",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceIntelligenceIOS",
+        "printedName": "DeviceIntelligenceIOS",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FIA",
+        "printedName": "FIA",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS3FIAP10initializeyySS_SStF",
+            "mangledName": "$s6FiaIOS3FIAP10initializeyySS_SStF",
+            "moduleName": "FiaIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiaIOS.FIA>",
+            "sugared_genericSig": "<Self where Self : FiaIOS.FIA>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "otp",
+            "printedName": "otp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OtpSettings",
+                "printedName": "FiaIOS.OtpSettings",
+                "usr": "s:6FiaIOS11OtpSettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS3FIAP3otpAA11OtpSettingsCyF",
+            "mangledName": "$s6FiaIOS3FIAP3otpAA11OtpSettingsCyF",
+            "moduleName": "FiaIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiaIOS.FIA>",
+            "sugared_genericSig": "<Self where Self : FiaIOS.FIA>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "otpView",
+            "printedName": "otpView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OtpViewSettings",
+                "printedName": "FiaIOS.OtpViewSettings",
+                "usr": "s:6FiaIOS15OtpViewSettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS3FIAP7otpViewAA03OtpE8SettingsCyF",
+            "mangledName": "$s6FiaIOS3FIAP7otpViewAA03OtpE8SettingsCyF",
+            "moduleName": "FiaIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiaIOS.FIA>",
+            "sugared_genericSig": "<Self where Self : FiaIOS.FIA>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6FiaIOS3FIAP",
+        "mangledName": "$s6FiaIOS3FIAP",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OtpViewSettings",
+        "printedName": "OtpViewSettings",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC5loginyySS_ySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC5loginyySS_ySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC8registeryySS_ySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC8registeryySS_ySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transaction",
+            "printedName": "transaction(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC11transactionyySS_ySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC11transactionyySS_ySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgetPassword",
+            "printedName": "forgetPassword(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC14forgetPasswordyySS_ySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC14forgetPasswordyySS_ySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FiaIOS15OtpViewSettingsC",
+        "mangledName": "$s6FiaIOS15OtpViewSettingsC",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FIAFactory",
+        "printedName": "FIAFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FIA",
+                "printedName": "any FiaIOS.FIA",
+                "usr": "s:6FiaIOS3FIAP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS10FIAFactoryC11getInstanceAA3FIA_pyFZ",
+            "mangledName": "$s6FiaIOS10FIAFactoryC11getInstanceAA3FIA_pyFZ",
+            "moduleName": "FiaIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FiaIOS10FIAFactoryC",
+        "mangledName": "$s6FiaIOS10FIAFactoryC",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/ValidateOtpResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2274,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 252,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 36,
+      "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 37,
+      "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 45,
+      "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\/validate\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 46,
+      "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\/validate\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1940,
+      "length": 15,
+      "value": "\"+621234567890\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 7,
+      "value": "\"login\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 34,
+      "value": "\"passphrasewhichneedstobe32bytes!\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2235,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2264,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1620,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 191,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/DerivedData\/FiaIOS\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphonesimulator\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 10,
+      "value": "\"OtpImage\""
+    }
+  ]
+}
