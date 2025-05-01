@@ -12,7 +12,7 @@ let package = Package(
             targets: ["FiaIOS"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/fazpass/fazpass-intelligence-authentication-ios", from: "0.0.1"),
+        .package(url: "https://github.com/keypaz/keypaz-device-intelligence-ios", from: "0.0.1"),
     ],
     targets: [
         .binaryTarget(
