@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   
   s.dependency 'DeviceIntelligenceIOS'
   
+  s.source_files        = "FiaIOSTargets/**/*.swift"
+  
   s.vendored_frameworks = "XCFrameworks/FiaIOS-#{s.version}.xcframework"
   
 end

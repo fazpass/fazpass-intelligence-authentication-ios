@@ -9,14 +9,28 @@ let package = Package(
     products: [
         .library(
             name: "FiaIOS",
-            targets: ["FiaIOS"]),
+            targets: ["FiaIOSTargets"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/keypaz/keypaz-device-intelligence-ios", from: "0.0.1"),
+        .package(url: "https://github.com/keypaz/keypaz-device-intelligence-ios", from: "0.0.3"),
     ],
     targets: [
         .binaryTarget(
             name: "FiaIOS",
-            path: "./XCFrameworks/FiaIOS-\(version).xcframework")
+            path: "./XCFrameworks/FiaIOS-\(version).xcframework"),
+        .target(
+            name: "FiaIOSTargets",
+            dependencies: [
+                .product(name: "DeviceIntelligenceIOS", package: "keypaz-device-intelligence-ios"),
+                .target(name: "FiaIOS"),
+            ],
+            path: "FiaIOSTargets",
+            swiftSettings: [
+                .define("UIKIT_ENABLED")
+            ],
+            linkerSettings: [
+                .linkedFramework("UIKit")
+            ]
+        )
     ]
 )
