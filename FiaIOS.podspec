@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FiaIOS'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Intelligence Authentication IOS.'
   s.description      = 'Intelligence Authentication IOS from Fazpass.'
   s.homepage         = 'https://github.com/fazpass/fazpass-intelligence-authentication-ios'
@@ -9,11 +9,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/fazpass/fazpass-intelligence-authentication-ios.git', :tag => "#{s.version}" }
   s.requires_arc     = true
   s.platform         = :ios, '14.0'
+  s.swift_versions      = '5.3'
   
   s.dependency 'DeviceIntelligenceIOS'
   
   s.source_files        = "FiaIOSTargets/**/*.swift"
   
-  s.vendored_frameworks = "XCFrameworks/FiaIOS-#{s.version}.xcframework"
+  s.vendored_frameworks = "XCFrameworks/#{s.version}/FiaIOS.xcframework"
   
 end
