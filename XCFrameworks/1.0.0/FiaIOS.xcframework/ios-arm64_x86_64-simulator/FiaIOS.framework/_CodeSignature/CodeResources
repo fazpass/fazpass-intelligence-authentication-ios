@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vGVRNdCQ9ubMbc+Tb11CJMFOSmk=
+		lD+U5ej+BZrtYliROoEVDBdIPpU=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		k9rnuLetCA37vKnmBP6H8X4Nhw0=
+		3wwPCoFytsRnOhAks7UUPr/Rivg=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aq1kcAL/jft4V5cJ5+TolqQchlY=
+		JIhryO4DtJNAe+rwFRBy/RCqULY=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l/1ja9aEagHAGxVAXroVm9y0jao=
+		oHM7AxC95ZSArdC91pz8LA24nPQ=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aq1kcAL/jft4V5cJ5+TolqQchlY=
+		JIhryO4DtJNAe+rwFRBy/RCqULY=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		brdhjbjilrxjIxooYcmzdGLhFeI=
+		JXoVXyp5wpaMWANvXgLOFHY6c+U=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		k9rnuLetCA37vKnmBP6H8X4Nhw0=
+		3wwPCoFytsRnOhAks7UUPr/Rivg=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MuWB8HkkmE2tDQDGCDEyTJCFaEE=
+		anVUP6mddUNPZXKrw6OwPxZZxLM=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FKeJDMUD7r9cyEagU9uBaHz0d0A=
+		xLc1m6xerWZO2gwGtx3cv4eCW2w=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MuWB8HkkmE2tDQDGCDEyTJCFaEE=
+		anVUP6mddUNPZXKrw6OwPxZZxLM=
 		</data>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dR62l9BzRduzF9W31MDD7Kg/glc=
+		fuzEjsO+MPkwUSFVK32tJsTK2OU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,70 +66,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fijUUHpWGdpVE53ZSfA6KzfWvJjRUzfGNtDp4gSBLLY=
+			L79T179LAp3i3ESweYwMTn7AEbZzTY5apoW+Sw3cpKg=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JMf5ESsFrIybXTU3eGe9VGJ/tMh0d7GH6MHWkLYJ/So=
+			lYe+kijSJnH5LVgWCZZoblMhGVTsVSTn7ZZDSqRvE+I=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wz/1YqBzuihZUyTsMpF+D0nfyTNq7mFwYJx1m5DFgkU=
+			b5FFmy21m2X1dvToyvQKOUyWQexSZ23se/W7Qi7Whk0=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JMf5ESsFrIybXTU3eGe9VGJ/tMh0d7GH6MHWkLYJ/So=
+			lYe+kijSJnH5LVgWCZZoblMhGVTsVSTn7ZZDSqRvE+I=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9NLCiTNPJY5oXaOupky07E0LGJ9da4EENKV+V1NOkaw=
+			+Q15hXIg75tIoVUYn5FPq6H2ScbpbMzp6b5QOIwl/Kk=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fijUUHpWGdpVE53ZSfA6KzfWvJjRUzfGNtDp4gSBLLY=
+			L79T179LAp3i3ESweYwMTn7AEbZzTY5apoW+Sw3cpKg=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSHcPKXZlWdhRXtN6aMX6fc/CP0Vt1M2YZHOJSoCNNg=
+			29Ks97hxSrqXL0C2V4W6pZxe+iPMkL5VoPmQW30G6TM=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlnfFt3ShMNgriytAzYUu5pQ80/ANmGuwxkbyIMkr+o=
+			Mo+7xlkORtGnbTTNiziOomwsOWkylBfZBjyBPAnR1DU=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSHcPKXZlWdhRXtN6aMX6fc/CP0Vt1M2YZHOJSoCNNg=
+			29Ks97hxSrqXL0C2V4W6pZxe+iPMkL5VoPmQW30G6TM=
 			</data>
 		</dict>
 		<key>Modules/FiaIOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GpAOwF/9Uh3OqusRA1Bc3wskYuK1tCRfLuJH8OcCNDw=
+			UgNQykfgB03xD7pGUqE6BFQ3wswLP8ntwVXFf/KJa+U=
 			</data>
 		</dict>
 	</dict>

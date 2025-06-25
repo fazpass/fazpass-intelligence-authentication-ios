@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "0.0.6"
+let version = "1.0.0"
 
 let package = Package(
     name: "FiaIOS",
@@ -12,12 +12,13 @@ let package = Package(
             targets: ["FiaIOSTargets"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/keypaz/keypaz-device-intelligence-ios", from: "0.0.6"),
+        .package(url: "https://github.com/keypaz/keypaz-device-intelligence-ios", from: "1.0.0"),
     ],
     targets: [
         .binaryTarget(
             name: "FiaIOS",
-            path: "./XCFrameworks/\(version)/FiaIOS.xcframework"),
+            path: "./XCFrameworks/\(version)/FiaIOS.xcframework",
+        ),
         .target(
             name: "FiaIOSTargets",
             dependencies: [

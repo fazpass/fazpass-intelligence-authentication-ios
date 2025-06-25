@@ -441,6 +441,352 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "FIAError",
+        "printedName": "FIAError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "badConnection",
+            "printedName": "badConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.FIAError.Type) -> FiaIOS.FIAError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FIAError",
+                    "printedName": "FiaIOS.FIAError",
+                    "usr": "s:6FiaIOS8FIAErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.FIAError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS8FIAErrorO13badConnectionyA2CmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO13badConnectionyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "illegalValidate",
+            "printedName": "illegalValidate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.FIAError.Type) -> (Swift.String) -> FiaIOS.FIAError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FiaIOS.FIAError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.FIAError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS8FIAErrorO15illegalValidateyACSS_tcACmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO15illegalValidateyACSS_tcACmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "verificationFailed",
+            "printedName": "verificationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.FIAError.Type) -> FiaIOS.FIAError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FIAError",
+                    "printedName": "FiaIOS.FIAError",
+                    "usr": "s:6FiaIOS8FIAErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.FIAError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS8FIAErrorO18verificationFailedyA2CmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO18verificationFailedyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "uninitialized",
+            "printedName": "uninitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.FIAError.Type) -> FiaIOS.FIAError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FIAError",
+                    "printedName": "FiaIOS.FIAError",
+                    "usr": "s:6FiaIOS8FIAErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.FIAError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS8FIAErrorO13uninitializedyA2CmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO13uninitializedyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.FIAError.Type) -> (Swift.String, (any Swift.Error)?) -> FiaIOS.FIAError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, (any Swift.Error)?) -> FiaIOS.FIAError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String, cause: (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.FIAError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS8FIAErrorO12unknownErroryACSS_s0E0_pSgtcACmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO12unknownErroryACSS_s0E0_pSgtcACmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS8FIAErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s6FiaIOS8FIAErrorO16errorDescriptionSSSgvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS8FIAErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s6FiaIOS8FIAErrorO16errorDescriptionSSSgvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FiaIOS8FIAErrorO",
+        "mangledName": "$s6FiaIOS8FIAErrorO",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -756,14 +1102,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
+                "name": "FIAError",
+                "printedName": "FiaIOS.FIAError",
+                "usr": "s:6FiaIOS8FIAErrorO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6FiaIOS10OtpPromiseC5errors5Error_pvp",
-            "mangledName": "$s6FiaIOS10OtpPromiseC5errors5Error_pvp",
+            "usr": "s:6FiaIOS10OtpPromiseC5errorAA8FIAErrorOvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC5errorAA8FIAErrorOvp",
             "moduleName": "FiaIOS",
             "declAttributes": [
               "AccessControl"
@@ -776,14 +1122,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "FIAError",
+                    "printedName": "FiaIOS.FIAError",
+                    "usr": "s:6FiaIOS8FIAErrorO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6FiaIOS10OtpPromiseC5errors5Error_pvg",
-                "mangledName": "$s6FiaIOS10OtpPromiseC5errors5Error_pvg",
+                "usr": "s:6FiaIOS10OtpPromiseC5errorAA8FIAErrorOvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC5errorAA8FIAErrorOvg",
                 "moduleName": "FiaIOS",
                 "accessorKind": "get"
               }
@@ -930,12 +1276,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
+                "printedName": "((FiaIOS.FIAError) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
+                    "printedName": "(FiaIOS.FIAError) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -944,9 +1290,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
                       }
                     ]
                   }
@@ -973,8 +1319,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FiaIOS10OtpPromiseC8validateyySS_ys5Error_pcSgyyctF",
-            "mangledName": "$s6FiaIOS10OtpPromiseC8validateyySS_ys5Error_pcSgyyctF",
+            "usr": "s:6FiaIOS10OtpPromiseC8validateyySS_yAA8FIAErrorOcSgyyctF",
+            "mangledName": "$s6FiaIOS10OtpPromiseC8validateyySS_yAA8FIAErrorOcSgyyctF",
             "moduleName": "FiaIOS",
             "declAttributes": [
               "AccessControl",
@@ -1734,280 +2080,280 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/ValidateOtpResponse.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/ValidateOtpResponse.swift",
       "kind": "BooleanLiteral",
       "offset": 190,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 285,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 2274,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 2303,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MiscallOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 2348,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 601,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 252,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 1605,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 1634,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/RequestOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 1664,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 36,
       "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 37,
       "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 45,
       "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\/validate\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
       "offset": 820,
       "length": 46,
       "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\/validate\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
       "offset": 1940,
       "length": 15,
       "value": "\"+621234567890\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
       "offset": 1975,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "BooleanLiteral",
       "offset": 188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 34,
       "value": "\"passphrasewhichneedstobe32bytes!\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 277,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 2235,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 2264,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 2309,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "BooleanLiteral",
       "offset": 1620,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 1649,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 1694,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "BooleanLiteral",
       "offset": 191,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "BooleanLiteral",
       "offset": 240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/FiaIOS\/FIAInternal.swift",
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/anvarisy\/Citcall\/Sdk\/dory\/DerivedData\/FiaIOS\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphoneos\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/FiaIOS-guhtqzuxyqmnlzbrdthpmbuaxkiq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphonesimulator\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 10,

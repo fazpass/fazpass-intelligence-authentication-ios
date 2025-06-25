@@ -26,6 +26,16 @@ public enum OtpAuthType {
   }
 }
 
+public enum FIAError : Foundation.LocalizedError {
+  case badConnection
+  case illegalValidate(message: Swift.String)
+  case verificationFailed
+  case uninitialized
+  case unknownError(message: Swift.String, cause: (any Swift.Error)? = nil)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class OtpSettings {
   public func login(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
   public func register(_ phone: Swift.String, _ callback: @escaping (FiaIOS.OtpPromise) -> Swift.Void)
@@ -38,7 +48,7 @@ public enum OtpAuthType {
   public var hasError: Swift.Bool {
     get
   }
-  public var error: any Swift.Error {
+  public var error: FiaIOS.FIAError {
     get
   }
   public var transactionId: Swift.String {
@@ -50,7 +60,7 @@ public enum OtpAuthType {
   public var digitCount: Swift.Int {
     get
   }
-  public func validate(_ otp: Swift.String, _ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
+  public func validate(_ otp: Swift.String, _ onFailed: ((FiaIOS.FIAError) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
   public func validateHE(_ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
   @objc deinit
 }
