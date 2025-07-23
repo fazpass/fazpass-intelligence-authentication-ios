@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FiaIOS
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FiaIOS
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import CryptoKit
 import DeveloperToolsSupport
@@ -14,13 +14,16 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 
+
 public enum OtpAuthType {
   case HE
   case Miscall
-  case Message
+  case SMS
+  case Whatsapp
   case FIA
   case MagicOtp
   case MagicLink
+  case Voice
   public static func == (a: FiaIOS.OtpAuthType, b: FiaIOS.OtpAuthType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -28,8 +31,9 @@ public enum OtpAuthType {
   }
 }
 
+
 public enum FIAError : Foundation.LocalizedError {
-  case badConnection
+  case badConnection(message: Swift.String? = nil)
   case illegalValidate(message: Swift.String)
   case verificationFailed
   case uninitialized

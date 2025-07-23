@@ -69,6 +69,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "OtpAuthType",
         "printedName": "OtpAuthType",
@@ -149,8 +166,8 @@
           },
           {
             "kind": "Var",
-            "name": "Message",
-            "printedName": "Message",
+            "name": "SMS",
+            "printedName": "SMS",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -180,8 +197,45 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FiaIOS11OtpAuthTypeO7MessageyA2CmF",
-            "mangledName": "$s6FiaIOS11OtpAuthTypeO7MessageyA2CmF",
+            "usr": "s:6FiaIOS11OtpAuthTypeO3SMSyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO3SMSyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Whatsapp",
+            "printedName": "Whatsapp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO8WhatsappyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO8WhatsappyA2CmF",
             "moduleName": "FiaIOS"
           },
           {
@@ -293,6 +347,43 @@
             "declKind": "EnumElement",
             "usr": "s:6FiaIOS11OtpAuthTypeO9MagicLinkyA2CmF",
             "mangledName": "$s6FiaIOS11OtpAuthTypeO9MagicLinkyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Voice",
+            "printedName": "Voice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO5VoiceyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO5VoiceyA2CmF",
             "moduleName": "FiaIOS"
           },
           {
@@ -452,6 +543,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -507,13 +615,41 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FiaIOS.FIAError.Type) -> FiaIOS.FIAError",
+                "printedName": "(FiaIOS.FIAError.Type) -> (Swift.String?) -> FiaIOS.FIAError",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "FIAError",
-                    "printedName": "FiaIOS.FIAError",
-                    "usr": "s:6FiaIOS8FIAErrorO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> FiaIOS.FIAError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FIAError",
+                        "printedName": "FiaIOS.FIAError",
+                        "usr": "s:6FiaIOS8FIAErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -532,8 +668,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FiaIOS8FIAErrorO13badConnectionyA2CmF",
-            "mangledName": "$s6FiaIOS8FIAErrorO13badConnectionyA2CmF",
+            "usr": "s:6FiaIOS8FIAErrorO13badConnectionyACSSSg_tcACmF",
+            "mangledName": "$s6FiaIOS8FIAErrorO13badConnectionyACSSSg_tcACmF",
             "moduleName": "FiaIOS"
           },
           {
@@ -2375,16 +2511,86 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/WhatsappOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/WhatsappOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/WhatsappOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2576,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/WhatsappOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/WhatsappOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/VoiceOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/VoiceOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/VoiceOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2284,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/VoiceOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2313,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/VoiceOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 662,
+      "offset": 700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1204,
+      "offset": 1360,
       "length": 5,
       "value": "false"
     },
@@ -2475,14 +2681,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 2597,
+      "offset": 3041,
       "length": 15,
       "value": "\"+621234567890\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 2632,
+      "offset": 3076,
       "length": 7,
       "value": "\"login\""
     },
@@ -2587,21 +2793,21 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1580,
+      "offset": 1585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1614,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1659,
       "length": 2,
       "value": "\"\""
     },
@@ -2622,21 +2828,21 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 2573,
+      "offset": 2223,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 2602,
+      "offset": 2252,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 2647,
+      "offset": 2297,
       "length": 2,
       "value": "\"\""
     },
