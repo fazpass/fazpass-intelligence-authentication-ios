@@ -36,30 +36,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiaIOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FiaIOS"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiaIOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -239,6 +219,80 @@
             "declKind": "EnumElement",
             "usr": "s:6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
             "mangledName": "$s6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "MagicOtp",
+            "printedName": "MagicOtp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO05MagicC0yA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO05MagicC0yA2CmF",
+            "moduleName": "FiaIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "MagicLink",
+            "printedName": "MagicLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpAuthType",
+                    "printedName": "FiaIOS.OtpAuthType",
+                    "usr": "s:6FiaIOS11OtpAuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpAuthType",
+                        "printedName": "FiaIOS.OtpAuthType",
+                        "usr": "s:6FiaIOS11OtpAuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS11OtpAuthTypeO9MagicLinkyA2CmF",
+            "mangledName": "$s6FiaIOS11OtpAuthTypeO9MagicLinkyA2CmF",
             "moduleName": "FiaIOS"
           },
           {
@@ -798,13 +852,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "FiaIOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "FiaIOS"
       },
       {
         "kind": "Import",
@@ -1392,6 +1443,154 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWhatsappForMagicOtp",
+            "printedName": "launchWhatsappForMagicOtp(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS10OtpPromiseC022launchWhatsappForMagicC0yyys5Error_pcSg_yycSgtF",
+            "mangledName": "$s6FiaIOS10OtpPromiseC022launchWhatsappForMagicC0yyys5Error_pcSg_yycSgtF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWhatsappForMagicLink",
+            "printedName": "launchWhatsappForMagicLink(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS10OtpPromiseC26launchWhatsappForMagicLinkyyys5Error_pcSg_yycSgtF",
+            "mangledName": "$s6FiaIOS10OtpPromiseC26launchWhatsappForMagicLinkyyys5Error_pcSg_yycSgtF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1445,6 +1644,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
       },
       {
         "kind": "Import",
@@ -1509,6 +1715,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiaIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FiaIOS"
       },
       {
         "kind": "Import",
@@ -1618,6 +1841,36 @@
             "declKind": "Func",
             "usr": "s:6FiaIOS3FIAP7otpViewAA03OtpE8SettingsCyF",
             "mangledName": "$s6FiaIOS3FIAP7otpViewAA03OtpE8SettingsCyF",
+            "moduleName": "FiaIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : FiaIOS.FIA>",
+            "sugared_genericSig": "<Self where Self : FiaIOS.FIA>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMagicLink",
+            "printedName": "onMagicLink(userActivity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserActivity",
+                "printedName": "Foundation.NSUserActivity",
+                "usr": "c:objc(cs)NSUserActivity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS3FIAP11onMagicLink12userActivityySo06NSUserH0C_tF",
+            "mangledName": "$s6FiaIOS3FIAP11onMagicLink12userActivityySo06NSUserH0C_tF",
             "moduleName": "FiaIOS",
             "genericSig": "<τ_0_0 where τ_0_0 : FiaIOS.FIA>",
             "sugared_genericSig": "<Self where Self : FiaIOS.FIA>",
@@ -2082,7 +2335,7 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/ValidateOtpResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 190,
+      "offset": 171,
       "length": 5,
       "value": "false"
     },
@@ -2124,7 +2377,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 601,
+      "offset": 662,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1204,
       "length": 5,
       "value": "false"
     },
@@ -2166,30 +2426,44 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 443,
       "length": 36,
       "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 518,
       "length": 37,
       "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 748,
       "length": 45,
       "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/fia\/validate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 833,
       "length": 46,
       "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/fia\/validate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 56,
+      "value": "\"https:\/\/api.fazpass.com\/v1\/otp\/verification-magic-link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/FIAExternalService.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 57,
+      "value": "\"https:\/\/apiv2.fazpas.com\/v1\/otp\/verification-magic-link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
@@ -2201,35 +2475,70 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 2597,
       "length": 15,
       "value": "\"+621234567890\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 1975,
+      "offset": 2632,
       "length": 7,
       "value": "\"login\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicLinkUI.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicLinkUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 280,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicLinkUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1776,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicLinkUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicLinkUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 188,
+      "offset": 169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 386,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/RequestOtpResponse.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 417,
       "length": 2,
       "value": "\"\""
     },
@@ -2255,6 +2564,48 @@
       "value": "16"
     },
     {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/CustomHttpClient.swift",
+      "kind": "Dictionary",
+      "offset": 1505,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1580,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
+      "length": 17,
+      "value": "\"+62812345678910\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/MagicOtpUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
       "offset": 241,
@@ -2271,21 +2622,21 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 2235,
+      "offset": 2573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2602,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/SmsOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 2309,
+      "offset": 2647,
       "length": 2,
       "value": "\"\""
     },
@@ -2306,21 +2657,21 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1620,
+      "offset": 1619,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 1649,
+      "offset": 1648,
       "length": 17,
       "value": "\"+62812345678910\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/UI\/HeOtpUI.swift",
       "kind": "StringLiteral",
-      "offset": 1694,
+      "offset": 1693,
       "length": 2,
       "value": "\"\""
     },
@@ -2353,7 +2704,7 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/FiaIOS-guhtqzuxyqmnlzbrdthpmbuaxkiq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphonesimulator\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/FiaIOS-guhtqzuxyqmnlzbrdthpmbuaxkiq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphoneos\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 10,

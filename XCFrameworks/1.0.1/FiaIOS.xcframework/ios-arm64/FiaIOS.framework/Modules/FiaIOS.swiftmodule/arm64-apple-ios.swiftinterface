@@ -19,6 +19,8 @@ public enum OtpAuthType {
   case Miscall
   case Message
   case FIA
+  case MagicOtp
+  case MagicLink
   public static func == (a: FiaIOS.OtpAuthType, b: FiaIOS.OtpAuthType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -62,13 +64,18 @@ public enum FIAError : Foundation.LocalizedError {
   }
   public func validate(_ otp: Swift.String, _ onFailed: ((FiaIOS.FIAError) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
   public func validateHE(_ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: @escaping () -> Swift.Void)
+  public func launchWhatsappForMagicOtp(_ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onSuccess: (() -> Swift.Void)? = nil)
+  public func launchWhatsappForMagicLink(_ onFailed: ((any Swift.Error) -> Swift.Void)? = nil, _ onValidated: (() -> Swift.Void)? = nil)
   @objc deinit
 }
+
+
 
 public protocol FIA {
   func initialize(_ merchantKey: Swift.String, _ merchantAppId: Swift.String)
   func otp() -> FiaIOS.OtpSettings
   func otpView() -> FiaIOS.OtpViewSettings
+  func onMagicLink(userActivity: Foundation.NSUserActivity)
 }
 
 @_hasMissingDesignatedInitializers public class OtpViewSettings {
