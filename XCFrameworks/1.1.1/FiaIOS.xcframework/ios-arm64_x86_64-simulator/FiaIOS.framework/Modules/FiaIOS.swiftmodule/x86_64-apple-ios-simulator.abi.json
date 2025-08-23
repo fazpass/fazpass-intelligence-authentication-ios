@@ -240,43 +240,6 @@
           },
           {
             "kind": "Var",
-            "name": "FIA",
-            "printedName": "FIA",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FiaIOS.OtpAuthType.Type) -> FiaIOS.OtpAuthType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OtpAuthType",
-                    "printedName": "FiaIOS.OtpAuthType",
-                    "usr": "s:6FiaIOS11OtpAuthTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FiaIOS.OtpAuthType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OtpAuthType",
-                        "printedName": "FiaIOS.OtpAuthType",
-                        "usr": "s:6FiaIOS11OtpAuthTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
-            "mangledName": "$s6FiaIOS11OtpAuthTypeO3FIAyA2CmF",
-            "moduleName": "FiaIOS"
-          },
-          {
-            "kind": "Var",
             "name": "MagicOtp",
             "printedName": "MagicOtp",
             "children": [
@@ -2884,33 +2847,33 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 191,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 240,
+      "offset": 726,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 291,
+      "offset": 815,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/FIAInternal.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 910,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/FiaIOS-guhtqzuxyqmnlzbrdthpmbuaxkiq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphoneos\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/FiaIOS-guhtqzuxyqmnlzbrdthpmbuaxkiq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FiaIOS\/IntermediateBuildFilesPath\/FiaIOS.build\/Release-iphonesimulator\/FiaIOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 10,
