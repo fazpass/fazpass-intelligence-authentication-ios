@@ -1357,6 +1357,86 @@
           },
           {
             "kind": "Var",
+            "name": "activityId",
+            "printedName": "activityId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC10activityIdSSvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC10activityIdSSvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC10activityIdSSvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC10activityIdSSvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBlocked",
+            "printedName": "isBlocked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FiaIOS10OtpPromiseC9isBlockedSbvp",
+            "mangledName": "$s6FiaIOS10OtpPromiseC9isBlockedSbvp",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FiaIOS10OtpPromiseC9isBlockedSbvg",
+                "mangledName": "$s6FiaIOS10OtpPromiseC9isBlockedSbvg",
+                "moduleName": "FiaIOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "authType",
             "printedName": "authType",
             "children": [

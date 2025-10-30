@@ -61,6 +61,12 @@ public enum FIAError : Foundation.LocalizedError {
   public var transactionId: Swift.String {
     get
   }
+  public var activityId: Swift.String {
+    get
+  }
+  public var isBlocked: Swift.Bool {
+    get
+  }
   public var authType: FiaIOS.OtpAuthType {
     get
   }
