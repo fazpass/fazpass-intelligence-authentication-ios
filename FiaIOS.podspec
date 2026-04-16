@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'FiaIOS'
-  s.version             = '1.2.1'
+  s.version             = '1.2.2'
   s.summary             = 'Fazpass Intelligence Authentication IOS.'
   s.description         = 'Fazpass Intelligence Authentication IOS from Fazpass.'
   s.homepage            = 'https://fazpass.com'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform            = :ios, '14.0'
   s.swift_versions      = '6.0'
   
-  s.dependency 'DeviceIntelligenceIOS', '~> 1.1.1'
+  s.dependency 'DeviceIntelligenceIOS', '~> 1.1.2'
   
   s.vendored_frameworks = "XCFrameworks/#{s.version}/FiaIOS.xcframework"
   
