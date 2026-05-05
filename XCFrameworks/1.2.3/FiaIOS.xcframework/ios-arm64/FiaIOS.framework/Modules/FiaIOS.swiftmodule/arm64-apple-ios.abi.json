@@ -1012,6 +1012,298 @@
           {
             "kind": "Function",
             "name": "login",
+            "printedName": "login(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC5loginyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC5loginyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC8registeryySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC8registeryySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transaction",
+            "printedName": "transaction(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC11transactionyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC11transactionyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgetPassword",
+            "printedName": "forgetPassword(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpPromise) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpPromise",
+                    "printedName": "FiaIOS.OtpPromise",
+                    "usr": "s:6FiaIOS10OtpPromiseC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS11OtpSettingsC14forgetPasswordyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "mangledName": "$s6FiaIOS11OtpSettingsC14forgetPasswordyySS_SDyS2SGSgyAA0C7PromiseCctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
             "printedName": "login(_:_:)",
             "children": [
               {
@@ -2300,6 +2592,326 @@
           {
             "kind": "Function",
             "name": "login",
+            "printedName": "login(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC5loginyySS_SDyS2SGSgySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC5loginyySS_SDyS2SGSgySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC8registeryySS_SDyS2SGSgySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC8registeryySS_SDyS2SGSgySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transaction",
+            "printedName": "transaction(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC11transactionyySS_SDyS2SGSgySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC11transactionyySS_SDyS2SGSgySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgetPassword",
+            "printedName": "forgetPassword(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FiaIOS15OtpViewSettingsC14forgetPasswordyySS_SDyS2SGSgySSSgctF",
+            "mangledName": "$s6FiaIOS15OtpViewSettingsC14forgetPasswordyySS_SDyS2SGSgySSSgctF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
             "printedName": "login(_:_:)",
             "children": [
               {
@@ -2806,14 +3418,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 700,
+      "offset": 741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1360,
+      "offset": 1497,
       "length": 5,
       "value": "false"
     },
@@ -2855,21 +3467,21 @@
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 318,
+      "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3196,
       "length": 15,
       "value": "\"+621234567890\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Views\/Otp\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3231,
       "length": 7,
       "value": "\"login\""
     },
