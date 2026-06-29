@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'FiaIOS'
-  s.version             = '1.2.4'
+  s.version             = '1.2.5'
   s.summary             = 'Fazpass Intelligence Authentication IOS.'
   s.description         = 'Fazpass Intelligence Authentication IOS from Fazpass.'
   s.homepage            = 'https://fazpass.com'

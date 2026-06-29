@@ -630,6 +630,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "MANUAL",
+            "printedName": "MANUAL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FiaIOS.OtpMagicRedirect.Type) -> FiaIOS.OtpMagicRedirect",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OtpMagicRedirect",
+                    "printedName": "FiaIOS.OtpMagicRedirect",
+                    "usr": "s:6FiaIOS16OtpMagicRedirectO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FiaIOS.OtpMagicRedirect.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpMagicRedirect",
+                        "printedName": "FiaIOS.OtpMagicRedirect",
+                        "usr": "s:6FiaIOS16OtpMagicRedirectO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FiaIOS16OtpMagicRedirectO6MANUALyA2CmF",
+            "mangledName": "$s6FiaIOS16OtpMagicRedirectO6MANUALyA2CmF",
+            "moduleName": "FiaIOS",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
