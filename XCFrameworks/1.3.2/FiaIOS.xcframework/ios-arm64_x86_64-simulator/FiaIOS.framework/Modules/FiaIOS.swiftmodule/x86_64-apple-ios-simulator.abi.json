@@ -4462,23 +4462,6 @@
       },
       {
         "kind": "Import",
-        "name": "os.log",
-        "printedName": "os.log",
-        "declKind": "Import",
-        "moduleName": "FiaIOS"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FiaIOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5127,41 +5110,6 @@
       "offset": 2077,
       "length": 8,
       "value": "\"SMSOTP\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Services\/LoggingService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 344,
-      "length": 3,
-      "value": "512"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Services\/LoggingService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 3,
-      "value": "512"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Services\/LoggingService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 3,
-      "value": "512"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Services\/LoggingService.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 6,
-      "value": "\"logs\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Services\/LoggingService.swift",
-      "kind": "StringLiteral",
-      "offset": 505,
-      "length": 42,
-      "value": "\"2f8b586f9ecce653dee3c6def837d6aeFFFFNRAL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
