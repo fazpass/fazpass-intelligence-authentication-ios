@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.3.2"
+let version = "1.3.3"
 
 let package = Package(
     name: "FiaIOS",

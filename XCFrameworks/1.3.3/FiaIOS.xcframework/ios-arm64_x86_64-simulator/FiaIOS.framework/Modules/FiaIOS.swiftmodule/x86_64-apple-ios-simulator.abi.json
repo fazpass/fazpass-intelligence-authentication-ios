@@ -4839,6 +4839,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/DataObjects\/StatusResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 138,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Externals\/EncryptionService.swift",
       "kind": "StringLiteral",
       "offset": 222,
@@ -5122,34 +5129,34 @@
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
       "kind": "StringLiteral",
       "offset": 174,
-      "length": 22,
-      "value": "\"\/v1\/otp\/fia\/validate\""
+      "length": 24,
+      "value": "\"\/v1\/otp\/fia\/validation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 234,
       "length": 33,
       "value": "\"\/v1\/otp\/verification-magic-link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
       "kind": "StringLiteral",
-      "offset": 297,
+      "offset": 299,
       "length": 33,
       "value": "\"\/v1\/otp\/fia\/verification-status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 358,
       "length": 27,
       "value": "\"\/v1\/otp\/fia-check-gateway\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dory\/dory\/FiaIOS\/Constants\/URLs.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 408,
       "length": 20,
       "value": "\"\/v1\/otp\/fia-manual\""
     },
